@@ -62,7 +62,8 @@ text-decoration: none;}
 }
 
 /* Hero */
-.hero {background-color: var(--titel-text-color);}
+.hero 
+{background-color: var(--titel-text-color);}
 .hero-titele {
     color:var(--back-main-color);
     text-align: center;
@@ -79,7 +80,7 @@ text-decoration: none;}
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
-text-transform: capitalize
+text-transform: capitalize;
 }
 .section-item {
 color: var(--titel-text-color);
