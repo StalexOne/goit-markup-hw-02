@@ -1,0 +1,58 @@
+/* +основной текст р +адрес и телефон в header #434455 */
+/* +текст лого 1я часть/Order Servic/текст кнопки  #4D5AE5  */
+/* +цвет лого в верху 2я часть/ЗАГОЛОВКИ H1,H2,Н3 #2E2F42 */
+/* +цвет лого в низу 2я часть Фон кнопки,
+вторичный фон кнопки #F4F4FD */
+/* цвет текста в Footer  #E7E9FC */
+/* Кнопка в фокусе #404BBF */
+/* цвет тексат кнопки в фокусе основной цвет фона #ffffff */
+
+:root {
+--primary-text-color:#434455;
+--titel-text-color: #2E2F42;
+--logo-color: #4D5AE5;
+--secondary-text-color:#F4F4FD;
+--button-focus-color:#404BBF;
+--footer-text-color:#E7E9FC;
+--back-main-color: #ffffff;
+}
+
+body {
+    background-color: var(--back-main-color);
+    color: var(--primary-text-color);
+}
+
+/* Style reset */
+.list {list-style: none;
+}
+
+/* LOGO */
+.logo {color: var(--titel-text-color);}
+.logo.down {color: var(--secondary-text-color);}
+.logoweb {color: var(--logo-color);}
+.logo:hover,
+.logo:focus {
+    color: #62b945;
+}
+.footer-titele {color: var(--footer-text-color);}
+/* SITE NAV */
+.site-nav .link {color: var(--titel-text-color);}
+.site-nav .link:hover, 
+.site-nav .link:focus 
+{color: #62b945;}
+/* AUTH NAV */
+.auth-nav .link {color: var(--primary-text-color);}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+    color: #62b945;
+}
+
+/* Hero */
+.hero-titele {
+    color:var(--back-main-color);
+}
+
+/* Section */
+.#section-titele {color: var(--titel-text-color);}
+.section-item {color: var(--titel-text-color);}
+
