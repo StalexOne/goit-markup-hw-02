@@ -54,6 +54,7 @@ text-decoration: none;}
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
+letter-spacing: 0.02em;
 text-decoration: none;}
 
 .auth-nav .link:hover,
@@ -142,6 +143,6 @@ button {
 
   .adr {
     font-style: normal;
-    
+
 
   }
