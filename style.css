@@ -16,6 +16,8 @@ body {
     font-family: Roboto, sans-serif;
 }
 
+.link {text-decoration: none;}
+
 /* Style reset */
 .list {list-style: none;
 }
@@ -95,6 +97,10 @@ button {
 .button.filter {
     background: var(--secondary-text-color);
     color: var(--logo-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 .button.filter:focus,
 .button.filter:hover {
