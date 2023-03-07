@@ -139,3 +139,9 @@ button {
 .footer-bgcolor {
     background-color: var(--titel-text-color);
   }
+
+  .adr {
+    font-style: normal;
+    
+
+  }
