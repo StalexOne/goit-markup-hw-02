@@ -62,8 +62,8 @@ text-decoration: none;}
 }
 
 /* Hero */
+.hero {background-color: var(--titel-text-color);}
 .hero-titele {
-    background-color: var(--titel-text-color);
     color:var(--back-main-color);
     text-align: center;
     font-weight: 700;
