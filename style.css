@@ -21,18 +21,17 @@ body {
 }
 
 /* LOGO */
-.logo {color: var(--titel-text-color);
+.logo {color: var(--logo-color);
 font-family: Raleway, sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.33;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
 }
-.logo.down {color: var(--secondary-text-color);}
-.logoweb {color: var(--logo-color);}
+.logo .down {color: var(--secondary-text-color);}
+.logo .up {color: var(--titel-text-color);}
 .logo:hover,
 .logo:focus {
     color: var(--button-focus-color);
@@ -43,7 +42,7 @@ font-family: Raleway, sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
-
+letter-spacing: 0.02em;
 text-decoration: none;}
 .site-nav .link:hover, 
 .site-nav .link:focus 
@@ -54,6 +53,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 text-decoration: none;}
+
 .auth-nav .link:hover,
 .auth-nav .link:focus {
     color: var(--button-focus-color);
