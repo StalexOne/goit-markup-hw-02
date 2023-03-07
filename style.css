@@ -16,9 +16,8 @@ body {
     font-family: Roboto, sans-serif;
 }
 
+/* STYLE RESET */
 .link {text-decoration: none;}
-
-/* Style reset */
 .list {list-style: none;
 }
 
@@ -62,7 +61,7 @@ text-decoration: none;}
     color: var(--button-focus-color);
 }
 
-/* Hero */
+/* HERO */
 .hero 
 {background-color: var(--titel-text-color);}
 .hero-titele {
@@ -75,8 +74,7 @@ text-decoration: none;}
 }
 
 
-
-/* Section */
+/* SECTION */
 .section-titales {
     color: var(--titel-text-color);
     font-size: 36px;
@@ -133,14 +131,16 @@ button {
     background-color:var(--button-focus-color);
 }
 
-/* cursor */
+/* CURSOR */
 .filter {
   cursor: pointer;}
 
+  /* FOOTER */
 .footer-bgcolor {
     background-color: var(--titel-text-color);
   }
 
+  /* HEADER */
   .adr {
     font-style: normal;
 letter-spacing: 0.02em;
