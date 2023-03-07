@@ -119,3 +119,7 @@ button {
 /* cursor */
 .filter {
   cursor: pointer;}
+
+  .footer-bgcolor {
+    background-color: var(--titel-text-color);
+  }
