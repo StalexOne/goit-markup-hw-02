@@ -76,7 +76,9 @@ text-decoration: none;}
 .section-titele {color: var(--titel-text-color);
 font-weight: 700;
 font-size: 36px;
-line-height: 1.11;}
+line-height: 1.11;
+text-transform: capitalize
+}
 .section-item {
 color: var(--titel-text-color);
 font-weight: 500;
