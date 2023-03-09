@@ -37,7 +37,7 @@ font-family: Raleway, sans-serif;
 .logo:focus {
     color: var(--button-focus-color);
 }
-.footer-titele {color: var(--footer-text-color);}
+
 /* SITE NAV */
 .site-nav .link {color: var(--titel-text-color);
 font-weight: 500;
@@ -75,6 +75,10 @@ text-decoration: none;}
 
 
 /* SECTION */
+.team{
+    background-color: var(--secondary-text-color);
+}
+
 .section-titales {
     color: var(--titel-text-color);
     font-size: 36px;
@@ -106,13 +110,19 @@ letter-spacing: 0.02em;
 
 /* BUTTONS */
 .button.primary {
-    background: var(--logo-color);
+    background-color: var(--logo-color);
     color: var(--back-main-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+}
+
+.button.primary:focus,
+.button.primary:hover {
+    color: var(--back-main-color);
+    background-color: var(--button-focus-color);
 }
 button {
     font-family: inherit;
@@ -137,7 +147,12 @@ button {
 
   /* FOOTER */
 .footer-bgcolor {
-    background-color: var(--titel-text-color);
+    background-color: var(--titel-text-color);  }
+    
+  .footer-titele {
+      color: var(--footer-text-color);
+    line-height:1.5;
+    letter-spacing: 0.02em;
   }
 
   /* HEADER */
